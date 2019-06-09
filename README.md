@@ -1,4 +1,4 @@
-# Manhattan-Congestion-Surcharge-Capstone
+# Impact of Manhattan Congestion Surcharge on For-Hire Vehicles
 This is our Capstone project which spans across 2 semesters as a part of our Masters in Urban Data Science at NYU CUSP. The team members are Katie Voorhees, Rufei Sheng, Sam Manzi, Soham Mody and Xiaoning He and our sponsors are Prof. Stan Sobolevsky and Arcadis NV. 
 
 We are evaluating the effectiveness of the congestion surcharge policy implemented in Manhattan(from February 2019) that is, whether the current congestion price is appropriate or should it be lower or higher. We are also assessing the urban transportation pattern under this new policy using a choice model between private transportation,public transportation, taxis and for-hire-vehicles in order to find if there has been a mode shift due to this change in pricing.
