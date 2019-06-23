@@ -5,7 +5,9 @@ We are evaluating the effectiveness of the congestion surcharge policy implement
 
 In order to do these, we are creating simulations of the transportation choices made by commuters for each origin-destination pair and we are assuming that these choices depend on the value of utility of that mode for the commuter while choosing a mode. The utility function here is: 
 
-Utility = Time taken * Wages per hour + Total cost of the commute 
+Utility = Lambda * (Time taken * Wages per hour + Total cost of the commute)
+
+Where Lambda is a constant parameter that needs to be tuned.
 
 The modes chosen by us for this model are walking, subway, taxis, for-hire vehicles and shared for-hire vehicles. We decided to use a nested multinomial logit model instead of the traditional multinomial logit model to predict the transportation choice proportions as the choices between taxis and for-hire vehicles is extremely correlated and that would create an unfair imbalance towards those when the model predicts the probability of choosing each mode.
 
